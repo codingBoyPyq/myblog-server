@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
+title: 庞跃强的个人博客
+subtitle: 随手记
+description: 世界上最远的距离，是我在if里你在else里，虽然经常一起出现，但却永不结伴执行。。。
+author: YueQiang Pang
+language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://pangyq.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_d efaults:
@@ -33,8 +33,8 @@ default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
-render_drafts: false
-post_asset_folder: false
+render_drafts: true
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
